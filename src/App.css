@@ -68,15 +68,23 @@
 @media (max-width: 768px) {
   .App {
     width: 90vw;
-    height: 80vh;
+    height: 60vh;
     left: 5%;
   }
 
   .Meta {
     width: 95vw;
     left: 5%;
-    
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
   }
 
+  .inspired {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 2rem;
+  }
   
 }
